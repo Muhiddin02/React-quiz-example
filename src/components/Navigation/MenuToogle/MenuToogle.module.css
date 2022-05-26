@@ -1,0 +1,18 @@
+.MenuToogle{
+    position: fixed;
+    top: 40px;
+    left: 40px;
+    font-size: 20px;
+    cursor: pointer;
+    color: #fff;
+    transition: opacity .22s ease-in;
+    z-index: 100;
+}
+
+.MenuToogle:hover{
+    opacity: .7;
+}
+
+.MenuToogle.open{
+    left: 320px;
+}
